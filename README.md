@@ -2,9 +2,9 @@ This repo contains a template for a basic Golang REST API server supporting Webs
 
 After cloning, use:
 ```
-find . -type f -not -path '*/\.*' -exec sed -i 's/go-template/<package-name>/g' {} +
+find . -type f -not -path '*/\.*' -exec sed -i 's/go-helm-operator/<package-name>/g' {} +
 ```
 And then:
 ```
-mv go-template <package-name>
+mv go-helm-operator <package-name>
 ```

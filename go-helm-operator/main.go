@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"go-template/go-template/configuration"
-	"go-template/go-template/server"
+	"go-helm-operator/go-helm-operator/configuration"
+	"go-helm-operator/go-helm-operator/server"
 	"net/http"
 	"os"
 	"os/signal"
@@ -24,7 +24,7 @@ func main() {
 	}
 
 	if server.PrintVersion {
-		fmt.Printf("go-template version %s (Built %s)\n", server.Version, server.Buildtime)
+		fmt.Printf("go-helm-operator version %s (Built %s)\n", server.Version, server.Buildtime)
 		os.Exit(0)
 	}
 

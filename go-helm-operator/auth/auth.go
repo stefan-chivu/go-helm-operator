@@ -3,7 +3,7 @@ package auth
 import (
 	"crypto/rand"
 	"fmt"
-	"go-template/go-template/models"
+	"go-helm-operator/go-helm-operator/models"
 	"net/http"
 
 	"github.com/gorilla/sessions"

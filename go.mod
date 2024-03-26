@@ -1,4 +1,4 @@
-module go-template
+module go-helm-operator
 
 go 1.22.1
 

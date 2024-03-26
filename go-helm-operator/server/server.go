@@ -2,8 +2,8 @@ package server
 
 import (
 	"context"
-	"go-template/go-template/auth"
-	"go-template/go-template/configuration"
+	"go-helm-operator/go-helm-operator/auth"
+	"go-helm-operator/go-helm-operator/configuration"
 	"log"
 	"net/http"
 	"os"
